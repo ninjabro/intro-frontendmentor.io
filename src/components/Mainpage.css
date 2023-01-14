@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap");
+
+/* font-family: 'Epilogue', sans-serif; */
+
+.flex {
+  display: flex;
+}
+
+.main {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.left-hero {
+  flex: 50%;
+  flex-direction: column;
+  margin: 80px 125px;
+  padding: 100px 50px auto 50px;
+  align-items: stretch;
+  position: relative;
+}
+
+.right-hero {
+  flex: 50%;
+  align-items: stretch;
+  margin: 80px 25px;
+}
+
+.right-hero img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  padding: 10px 60px;
+}
+
+.main {
+  height: 650px;
+  overflow: visible;
+  align-items: stretch;
+  flex-direction: row;
+  display: flex;
+}
+
+.left-hero h1 {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+}
+
+.left-hero p {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: hsl(0, 0%, 41%);
+  text-align: left;
+  line-height: 2rem;
+  word-spacing: 0.3rem;
+  inline-size: 540px;
+  overflow-wrap: break-word;
+}
+
+.left-hero button {
+  background-color: black;
+  border: 2px solid black;
+  color: white;
+  font-family: "Epilogue", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  width: 180px;
+  height: 50px;
+  border-radius: 20px;
+  align-items: flex-start;
+  cursor: pointer;
+}
+
+.btndiv {
+  height: 60px;
+}
+
+.left-hero button:hover {
+  color: black;
+  background-color: white;
+}
+
+.client {
+  display: flex;
+  flex-direction: row;
+  max-height: 30px;
+  max-width: 100%;
+  padding-top: 100px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  justify-content: space-between;
+}
+
+.client img {
+  margin: 2px 10px;
+  padding: 2px;
+  max-width: 100%;
+  max-height: 100%;
+  margin-right: 30px;
+  padding-bottom: 2px;
+}
+
+@media screen and (min-width: 2560px) {
+  .main {
+    height: 1080px;
+    width: 75%;
+    align-items: center;
+  }
+}
